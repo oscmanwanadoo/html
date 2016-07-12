@@ -1,0 +1,46 @@
+
+<html>
+
+<body>
+
+<script>
+
+// calculo matrices
+// calculo determinantes
+// calculo rango de matricesvar matrizA = new Array();
+
+var n = new Array();
+var m = new Array();
+
+
+
+function matriz()
+	{
+	var mfilas=arguments.length;
+	document.write(mfilas+" filas : <br>");
+	
+	for(var i=0; i<mfilas; i++)
+		{
+		document.write(" fila [ "+i+" ]:   ");
+		var ncolumnas=arguments[i].length;
+		document.write(ncolumnas+" columnas : <br>");
+
+		for(var j=0; j<ncolumnas; j++)
+			{
+			document.write(" a ["+i+"]["+j+"]: "+ arguments[i][j]);
+			}		
+		document.write("<br>");
+		}
+	document.write("<br>");
+	}
+
+		
+matriz([1,2,4],[3,5,9],[7,0,12],[23,45,3,4,5,6],[67,89,098]);
+		
+
+
+</script>
+
+</body>
+
+</html>

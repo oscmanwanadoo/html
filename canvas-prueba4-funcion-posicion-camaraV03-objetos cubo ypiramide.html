@@ -1,0 +1,101 @@
+﻿var objeto3d = function(listavertices, listaaristas)
+{
+this.listaVertices = listavertices;
+this.listaAristas = listaaristas;
+}
+
+var vertice = new Array();
+vertice = (
+[0,0,0],
+[1,0,0],
+[1,1,0],
+[0,1,0],
+[0,0,1],
+[1,0,1],
+[1,1,1],
+[0,1,1]);
+var arista = new Array();
+arista = (
+[0,1],
+[1,2],
+[2,3],
+[3,0],
+[4,5],
+[5,6],
+[6,7],
+[7,4],
+[0,4],
+[1,5],
+[2,6],
+[3,7])
+
+var cubo = new objeto3d(vertice, arista);
+
+
+vertice = (
+[0,0,2],
+[2,0,2],
+[2,2,2],
+[0,2,2],
+[1,1,4]);
+
+arista = (
+[0,1],
+[1,2],
+[2,3],
+[3,0],
+[0,4],
+[1,4],
+[2,4],
+[3,4])
+
+var piramide = new objeto3d(vertice, arista);
+
+var vertice = new Array();
+vertice = (
+[0,0,0],
+[2,0,0],
+[2,2,0],
+[0,2,0],
+[0,0,2],
+[1,0,2],
+[1,1,2],
+[0,1,2]);
+var arista = new Array();
+arista = (
+[0,1],
+[1,2],
+[2,3],
+[3,0],
+[4,5],
+[5,6],
+[6,7],
+[7,4],
+[0,4],
+[1,5],
+[2,6],
+[3,7])
+
+var prisma = new objeto3d(vertice, arista);
+
+
+var vertice = new Array();
+vertice = (
+[0,0,0],
+[1,0,0],
+[0,1,0],
+[0,0,1]);
+
+var arista = new Array();
+arista = (
+[0,1,'#FF0000'],
+[0,2,'#00FF00'],
+[0,3,'#0000FF']);
+
+var ejesCoordenadas = new objeto3d(vertice, arista);
+/*
+// acceso a punto de objeto
+
+objeto.listaVertices[n][p]; // vertice n coordenada p (x,y,x)
+objeto.listaVertices [listaAristas[N][P]][W] // vertice P (0 ó 1) de arista N coordenada W (x,y ó z)
+*/

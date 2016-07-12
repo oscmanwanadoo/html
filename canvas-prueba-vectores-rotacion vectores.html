@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Probando canvas</title>
+
+<script src="puntos-vectores.js" type="text/javascript"></script>
+<script src="vectores-operaciones.js" type="text/javascript"></script>
+<script src="puntos-vectores-cambio-coordenadas.js" type="text/javascript"></script>
+<script src="puntos-vectores-cambio-coordenadas-rotacion-vector.js" type="text/javascript"></script>
+
+<script>
+
+
+var V1P1= new Punto3D(0, 0, 0);
+var V1P2= new Punto3D(0, 0, 1);
+
+var V2P1= new Punto3D( 1, 1, 0);
+var V2P2= new Punto3D( 1, 2, 0);
+
+var Vector1 = new Vector(V1P1, V1P2);
+var Vector2 = new Vector(V2P1, V2P2);
+
+document.write("<br>Vector 1  <br>");
+Vector1.escribe();
+document.write("<br>Vector 2  <br>");
+Vector2.escribe();
+
+
+var angulo = 2.09439; // angulo PI/2 = 120º
+
+document.write("<br>Llamada a RotacionPuntoVector : <br>");
+var PR = rotacionPuntoVector (Vector1, V2P1, angulo);
+document.write("<br>Punto girado (X,Y,Z) : ( " + PR.X + " , " + PR.Y +" , "+ PR.Z + ")<br>");
+var PR = rotacionPuntoVector (Vector1, V2P2, angulo);
+document.write("<br>Punto girado (X,Y,Z) : ( " + PR.X + " , " + PR.Y +" , "+ PR.Z + ")<br>");
+
+document.write("<br>Llamada a RotacionVectorVector : <br>");
+var VectorR = rotacionVectorVector (Vector1, Vector2, angulo);
+VectorR.escribe();
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>

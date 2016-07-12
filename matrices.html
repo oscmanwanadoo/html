@@ -1,0 +1,41 @@
+
+<html>
+
+<body>
+
+<script>
+
+// calculo matrices
+// calculo determinantes
+// calculo rango de matricesvar matrizA = new Array();
+
+var n = new Array();
+var m = new Array();
+
+
+
+	function matriz(){
+		var long=arguments.length;
+		document.write(long+" argumentos : <br>");
+		for(var i=0; i<long; i++)
+			{
+			document.write(" argumento ["+i+"] :  "+ arguments[i]);
+			
+			document.write(" longitud: ["+i+"] :  "+ arguments[i].length +"<br>");
+			if(arguments[i].length>1){matriz(arguments[i]);}
+		
+			}
+		document.write("<br>");
+		}
+
+	//	matriz(05,3,2);
+	//	matriz("hola ", " mundo ", 65);
+		matriz([1,2,4],[3,5,9],[7,0,12],"23,45,[3,4,5,6],67,89,098");
+		
+
+
+</script>
+
+</body>
+
+</html>

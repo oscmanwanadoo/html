@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>menu emergente</title>
+ 
+		<style type="text/css">
+			.oculto { display: none; }
+			.visible { display: inline; }
+		</style>
+ 
+		<script type="text/javascript">
+			function menu_emergente(){
+				var emer = document.getElementById("items");
+				if(emer.getAttribute('class') == "oculto"){
+					emer.setAttribute("class","visible");
+				}else{
+					//emer.setAttribute("class","oculto");
+					fuera_menu();
+				}
+			}
+			function fuera_menu(){
+				var emer = document.getElementById("items");
+				emer.setAttribute("class","oculto");
+			}
+		</script>
+	</head>
+	<body>
+	<a id="menu" href="#" onclick="menu_emergente()" >Menu Principal</a>
+	<div id="items" class="oculto" onclick="fuera_menu()">
+		<br /><a href="http://google.es" target="_blank">elemento1</a>
+		<br /><a href="http://elpais.es" target="_blank">elemento2</a>
+		<br /><a href="http://k40s.org" target="_blank">elemento3</a>
+		<br /><a href="http://publico.es" target="_blank">elemento4</a>
+		<br /><a href="./">elemento5</a>
+	</div>
+	</body>
+</html>

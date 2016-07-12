@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<script>
+function coordenadas(ev){
+var x= ev.clientX;
+var y =ev.clientY;
+var ox= ev.offsetX;
+var oy =ev.offsetY;
+document.getElementById("TFI").innerHTML = ("X: "+x+";  Y: "+y+"<br>Offset X: "+ox+"Offset Y: "+oy);
+
+
+
+}
+
+</script>
+<body>
+
+// <canvas id="mycanvas" width="800" height="600" >No compatible con CANVAS</canvas>
+
+<br>
+
+<img id="FOTOIZQ" src="IMG00311-20130211-0749.jpg" onmousemove="coordenadas(event)";>
+<div id="TFI"><br><br></div>
+<img id="FOTODCH" src="IMG00312-20130211-0749.jpg">
+</body>
+
+
+
+</html>

@@ -1,0 +1,266 @@
+<HTML>
+<head>
+<title>Prueba vectores y puntos </title>
+<script type="text/javascript"> 
+
+var u1, v1; // coordenadas de punto en imagen izquda
+var u2, v2; // coordenadas de punto en imagen dcha
+
+var f1, f2; // distancias focal de camara izquierda (1) y derecha (2)
+
+var TPIX1H, TPIX1V; // tamaño pixel camara izquierda (horizontal y vertical)
+var TPIX2H, TPIX2V; // tamaño pixel camara izquierda (horizontal y vertical)
+
+var PX, PY, PZ; // coordenadas de punto en 3d
+var O1X, O1Y, O1Z; // coordenadas origen camara izquierda
+var O2X, O2Y, O2Z; // coordenadas origen camara dcha
+
+// coordenadas de vectores base de camara izquierda
+var C1XX, C1XY, C1XZ;
+var C1YX, C1YY, C1YZ;
+var C1ZX, C1ZY, C1ZZ;
+
+// coordenadas de vectores base de camara dcha
+var C2XX, C2XY, C2XZ;
+var C2YX, C2YY, C2YZ;
+var C2ZX, C2ZY, C2ZZ;
+
+//
+// valores intermedios para cálculos
+//
+
+var C1VX, C1VY, C1VZ;
+var C2VX, C2VY, C2VZ;
+var K1, K2, K3, K4;
+var ALFA, BETA;
+
+// valores de PUNTO3D finales
+//
+
+var P1X, P1Y,P1Z;
+var P2X, P2Y,P2Z;
+
+function calculaPto3d(){
+//
+// calculo valores intermedios y auxiliares
+//
+
+C1VX = (u1 * C1XX) + (v1 * C1YX) + (f1 * C1ZX);
+C1VY = (u1 * C1XY) + (v1 * C1YY) + (f1 * C1ZY);
+C1VZ = (u1 * C1XZ) + (v1 * C1YZ) + (f1 * C1ZZ);
+
+C2VX = (u2 * C2XX) + (v2 * C2YX) + (f2 * C2ZX);
+C2VY = (u2 * C2XY) + (v2 * C2YY) + (f2 * C2ZY);
+C2VZ = (u2 * C2XZ) + (v2 * C2YZ) + (f2 * C2ZZ);
+
+
+//
+// OJO - corregir y verificar divisiones por cero
+// ***************************************
+//
+K1 = C1VX / C2VX;
+K2 = (O1X - O2X) / C2VX;
+K3 = (O1Y - O2Y) / C2VY;
+K4 = C1VY / C2VY;
+
+ALFA = (K2 - K3) / (K4 - K1);
+BETA = (K1 * ALFA) + K2;
+
+//
+// RESULTADO DE PUNTOS 3D
+//
+// SE DEBEN DEFINIR ORIGEN Y VECTORES PARA CADA CAMARA, Y VALORES u y v EN CADA IMAGEN
+//
+// SE CALCULA SEGUN LAS FORMULAS PARA CADA CAMARA
+// EL PUNTO 3D TIENE COORDNEADAS (PX, PY, PZ) = (P1X, P1Y, P1Z) = (P2X, P2Y, P2Z)
+// DEBEN COINCIDIR P1X=P2X, P1Y=P2Y, P1Z=P2Z
+//
+
+
+P1X = O1X + (ALFA * C1VX);
+P1Y = O1Y + (ALFA * C1VY);
+P1Z = O1Z + (ALFA * C1VZ);
+
+P2X = O2X + (BETA * C2VX);
+P2Y = O2Y + (BETA * C2VY);
+P2Z = O2Z + (BETA * C2VZ);
+}
+
+//
+//
+
+
+
+function Punto3d(x,y,z){
+	this.x =x;
+	this.y=y;
+	this.z=z;
+	}
+
+function Vector3d(ptoinicio, ptofin){
+	this.inicio=ptoinicio;
+	this.fin=ptofin;
+
+	this.u=ptofin.x-ptoinicio.x;
+	this.v=ptofin.y-ptoinicio.y;
+	this.w=ptofin.z-ptoinicio.z;
+	}
+	
+function Base3d(ptoOrigen, vectorX, vectorY, vectorZ){
+	this.origen=ptoOrigen;
+	this.vectorX=vectorX;
+	this.vectorY=vectorY;
+	this.vectorZ=vectorZ;
+}
+
+function asignaValores(){
+	C1XX = document.getElementById("inputC1XX").value;
+	C1XY = document.getElementById("inputC1XY").value;
+	C1XZ = document.getElementById("inputC1XZ").value;
+
+	C1YX = document.getElementById("inputC1YX").value;
+	C1YY = document.getElementById("inputC1YY").value;
+	C1YZ = document.getElementById("inputC1YZ").value;
+
+	C1ZX = document.getElementById("inputC1ZX").value;
+	C1ZY = document.getElementById("inputC1ZY").value;
+	C1ZZ = document.getElementById("inputC1ZZ").value;
+
+	C2XX = document.getElementById("inputC2XX").value;
+	C2XY = document.getElementById("inputC2XY").value;
+	C2XZ = document.getElementById("inputC2XZ").value;
+
+	C2YX = document.getElementById("inputC2YX").value;
+	C2YY = document.getElementById("inputC2YY").value;
+	C2YZ = document.getElementById("inputC2YZ").value;
+
+	C2ZX = document.getElementById("inputC2ZX").value;
+	C2ZY = document.getElementById("inputC2ZY").value;
+	C2ZZ = document.getElementById("inputC2ZZ").value;
+
+	O1X = document.getElementById("inputO1X").value;
+	O1Y = document.getElementById("inputO1Y").value;
+	O1Z = document.getElementById("inputO1Z").value;
+	O2X = document.getElementById("inputO2X").value;
+	O2Y = document.getElementById("inputO2Y").value;
+	O2Z = document.getElementById("inputO2Z").value;
+
+	f1 = document.getElementById("inputf1").value;	
+	f2 = document.getElementById("inputf2").value;
+	u1 = document.getElementById("inputu1").value; u1=parseInt(u1);
+	v1 = document.getElementById("inputv1").value; v1=parseInt(v1);
+	u2 = document.getElementById("inputu2").value; u2=parseInt(u2);
+	v2 = document.getElementById("inputv2").value; v2=parseInt(v2);
+}
+
+function escribeValores(){
+	document.write('O1: ( '+O1X+' , '+O1Y+' , '+O1Z+' )<br>');
+	document.write('C1X: ( '+C1XX+' , '+C1XY+' , '+C1XZ+' )<br>');
+	document.write('C1Y: ( '+C1YX+' , '+C1YY+' , '+C1YZ+' )<br>');
+	document.write('C1Z: ( '+C1ZX+' , '+C1ZY+' , '+C1ZZ+' )<br>');
+
+	document.write('O2: ( '+O2X+' , '+O2Y+' , '+O2Z+' )<br>');
+	document.write('C2X: ( '+C2XX+' , '+C2XY+' , '+C2XZ+' )<br>');
+	document.write('C2Y: ( '+C2YX+' , '+C2YY+' , '+C2YZ+' )<br>');
+	document.write('C2Z: ( '+C2ZX+' , '+C2ZY+' , '+C2ZZ+' )<br>');
+
+	document.write('U1V1: ( '+u1+' , '+v1+' )<br>');
+	document.write('U2V2: ( '+u2+' , '+v2+' )<br>');
+	
+	document.write('f1: ( '+f1+' mm )<br>');
+	document.write('f2: ( '+f2+' mm )<br>');
+
+	document.write('ALFA: ( '+ALFA+' )<br>');
+	document.write('BETA: ( '+BETA+' )<br>');
+	
+	document.write('P1: ( '+P1X+' , '+P1Y+' , '+P1Z+' )<br>');
+	document.write('P2: ( '+P2X+' , '+P2Y+' , '+P2Z+' )<br>');
+
+}
+
+function calculaDatos(){
+	asignaValores();
+	calculaPto3d();
+
+	escribeValores();
+
+}
+
+</script>
+</head>
+<body>
+
+<p> parrafo pprevio</p>
+
+<script type="text/javascript">
+document.write ("hola mundo");
+
+</script>
+
+<script type="text/javascript"> 
+PTO1 = new Punto3d(55.40,6,7);
+PTO2 = new Punto3d(10,20.2,2);
+
+VCT = new Vector3d(PTO1, PTO2);
+
+document.write('<p>Hola</p>');
+document.write('PTO1: ( '+PTO1.x+' , '+PTO1.y+' , '+PTO1.z+' )<br>');
+document.write('PTO2: ( '+PTO2.x+' , '+PTO2.y+' , '+PTO2.z+' )<br>');
+document.write('VCT: ( '+VCT.u+' , '+VCT.v+' , '+VCT.w+' )<br>');
+
+
+</script>
+
+<p> parrafo final</p>
+<p>Valores de O1:   
+	O1X:   <input type="text" name="inputO1X" id="inputO1X" value=0>
+	O1Y:   <input type="text" name="inputO1Y" id="inputO1Y" value=0>
+	O1Z:   <input type="text" name="inputO1Z" id="inputO1Z" value=0></p>
+<p>Valores de C1X:   
+	C1XX:   <input type="text" name="inputC1XX" id="inputC1XX" value=1>
+	C1XY:   <input type="text" name="inputC1XY" id="inputC1XY" value=0>
+	C1XZ:   <input type="text" name="inputC1XZ" id="inputC1XZ" value=0></p>
+<p>Valores de C1Y:   
+	C1YX:   <input type="text" name="inputC1YX" id="inputC1YX" value=0>
+	C1YY:   <input type="text" name="inputC1YY" id="inputC1YY" value=1>
+	C1YZ:   <input type="text" name="inputC1YZ" id="inputC1YZ" value=0></p>
+<p>Valores de C1Z:   
+	C1ZX:   <input type="text" name="inputC1ZX" id="inputC1ZX" value=0>
+	C1ZY:   <input type="text" name="inputC1ZY" id="inputC1ZY" value=0>
+	C1ZZ:   <input type="text" name="inputC1ZZ" id="inputC1ZZ" value=1></p>
+<p>Valor de F1:   
+	f1:   <input type="text" name="inputf1" id="inputf1" value=30></p>
+<BR>
+<p>Valores de O2:   
+	O2X:   <input type="text" name="inputO2X" id="inputO2X" value=10>
+	O2Y:   <input type="text" name="inputO2Y" id="inputO2Y" value=0>
+	O2Z:   <input type="text" name="inputO2Z" id="inputO2Z" value=0></p>
+<p>Valores de C2X:   
+	C2XX:   <input type="text" name="inputC2XX" id="inputC2XX" value=1>
+	C2XY:   <input type="text" name="inputC2XY" id="inputC2XY" value=0>
+	C2XZ:   <input type="text" name="inputC2XZ" id="inputC2XZ" value=0></p>
+<p>Valores de C2Y:   
+	C2YX:   <input type="text" name="inputC2YX" id="inputC2YX" value=0>
+	C2YY:   <input type="text" name="inputC2YY" id="inputC2YY" value=1>
+	C2YZ:   <input type="text" name="inputC2YZ" id="inputC2YZ" value=0></p>
+<p>Valores de C2Z:   
+	C2ZX:   <input type="text" name="inputC2ZX" id="inputC2ZX" value=0>
+	C2ZY:   <input type="text" name="inputC2ZY" id="inputC2ZY" value=0>
+	C2ZZ:   <input type="text" name="inputC2ZZ" id="inputC2ZZ" value=1></p>
+<p>Valor de F2:   
+	f2:   <input type="text" name="inputf2" id="inputf2" value=30></p>
+<BR>
+<p>Valores de u v de C1:     
+	u1:   <input type="text" name="inputu1" id="inputu1">
+	v1:   <input type="text" name="inputv1" id="inputv1">
+	</p>
+<p>Valores de u v de C2:     
+	u2:   <input type="text" name="inputu2" id="inputu2">
+	v2:   <input type="text" name="inputv2" id="inputv2">
+	</p>	
+
+<INPUT type="button" value="Calcula" onclick="calculaDatos();">
+	
+	</body>
+
+</html>

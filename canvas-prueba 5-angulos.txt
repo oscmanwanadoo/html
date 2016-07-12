@@ -1,0 +1,33 @@
+var distanciaCamara = 10;
+var anguloHorizontal=0;
+var anguloVertical=0;
+
+function modificaAngulos(incVertical, incHorizontal)
+{
+anguloHorizontal+=incHorizontal;
+anguloVertical+=incVertical;
+}
+
+//
+// anguloAlfa - angulo entre proyeccion horizontal y eje y. positivo hacia eje x
+// anguloBeta - angulo entre vector y plano x-y. positivo hacia eje z
+// r - distancia entre origen y punto
+//
+
+// coordenadas de punto:
+var x = r * Math.sin(anguloAlfa) * Math.sin(anguloBeta)
+var y = r * Math.cos(anguloAlfa) * Math.cos(anguloBeta)
+var z = r * Math.sin(anguloBeta)
+
+// coordenadas de ejes:
+// vector u - paralelo a x
+// vector v - paralalo a -y
+// vector w - paralelo a z
+
+
+
+vectoru = vector x * cos Alfa - y * sin alfa
+vectorv = vector x * sen(alfa)*cos(beta) - vectory * cos(alfa)*cos(beta)-vectorz*sen(beta)
+vectorw = vector x * sen(alfa)*sen(beta) - vectory * cos(alfa)*sen(beta)-vectorz*cos(beta)
+
+

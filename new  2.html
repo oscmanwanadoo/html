@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+<script>
+
+var imgAncho, imgAlto;
+var imgXorigen, imgYorigen;
+var ptoX, ptoY;
+
+
+
+function cargaImagen()
+{
+var img = document.getElementById("imagen");
+img.src= document.getElementById("seleccionArchivo").value;
+imgAncho = img.width;
+imgAlto = img.height;
+imgXorigen = imgAncho /2;
+imgYorigen = imgAlto /2;
+
+}
+
+function incAncho()
+{
+document.getElementById("imagen").width = document.getElementById("imagen").width + 50;
+}
+
+function decAncho()
+{
+document.getElementById("imagen").width = document.getElementById("imagen").width - 50;
+}
+
+function incAlto()
+{
+document.getElementById("imagen").height = document.getElementById("imagen").height + 50;
+}
+
+function decAlto()
+{
+var img = document.getElementById("imagen");
+img.height = document.getElementById("imagen").height - 50;
+
+}
+
+function coordenadas(ev){
+var x= ev.clientX;
+var y =ev.clientY;
+var ox= ev.offsetX;
+var oy =ev.offsetY;
+var infoTXT = document.getElementById("TFI");
+
+ptoX = ox - imgXorigen;
+ptoY = oy - imgYorigen;
+
+var TXTCoord = ("X: "+x+";  Y: "+y+"<br>Offset X: "+ox+"Offset Y: "+oy+"<br>"+ "imgX : "+ptoX+"; imgY : "+ptoY);
+TXTCoord=TXTCoord + "<br> Ancho : " + imgAncho + "; Alto : "+imgAlto+ "<br>";
+
+
+infoTXT.innerHTML = (TXTCoord);
+
+
+}
+
+
+
+
+</script>
+
+</head>
+
+<body>
+<input type="file" id="seleccionArchivo" onchange="cargaImagen()">
+<br>
+<button id="btnIncAncho" onclick="incAncho()">Incrementa Ancho</button>
+<button id="btnDecAncho" onclick="decAncho()">Decrementa Ancho</button>
+<br>
+<button id="btnIncAlto" onclick="incAlto()">Incrementa Alto</button>
+<button id="btnDecAlto" onclick="decAlto()">Decrementa Alto</button>
+
+<br>
+
+<br>
+<img id="imagen" onmousemove="coordenadas(event)" ></img>
+<br>
+<div id="TFI"><br><br></div>
+</body>
+
+
+</html>

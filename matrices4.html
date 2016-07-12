@@ -1,0 +1,177 @@
+
+<html>
+
+<body>
+
+<script>
+
+// calculo matrices
+// calculo determinantes
+// calculo rango de matricesvar matrizA = new Array();
+
+var n = new Array();
+var m = new Array();
+
+
+
+function escribeMatriz()
+ {
+document.write(" Inicio FUNCION ESCRIBE MATRIZ . . . <br>");
+document.write(" ************************************<br>");
+document.write(this.filas + " filas <br>");
+document.write(this.columnas + " columnas <br>");
+
+ var filas = this.a.length;
+ for(i=0;i<filas;i++)
+	{
+	var columnas =this.a[i].length;
+	 for(j=0;j<columnas;j++)
+			{
+			document.write(" A ["+i+"]["+j+"]: "+ this.a[i][j]);
+			}
+	document.write("<br>");
+	}
+
+}
+
+
+
+function determinante(){
+var m=this.filas;
+var n=this.columnas;
+var Determinante=0;
+
+	document.write(" determinante: filas: "+m+"<BR>");
+	document.write(" determinante: columnas: "+n+" <BR>");
+
+
+if (m!=n)
+	{
+	document.write("Matriz de "+m+" x "+n +" <BR>");
+	return;
+	}
+
+if (m==2)
+	{
+	document.write(" calculo de MATRIZ 2 x 2<BR>");
+	
+	Determinante = (this.a[0][0] * this.a[1][1]) - (this.a[1][0] * this.a[0][1]);
+	}
+else 
+	{
+	
+	document.write(" calculo  POR SUBMATRICES<BR>");
+	
+	for(var indicej=0;indicej<n;indicej++)
+		{
+document.write(" indicej "+ indicej+" <br>");
+//		for (var j=0;j<n;j++)
+//			{
+			submatriz=new matriz(); // crea submatriz con 1 fila de Array por defecto
+			
+			
+			var signo=Math.pow((-1),(indicej));
+			var si=0, sj=0;
+			for(var i=1;i<m;i++)
+			{	
+document.write("pone sj a 0 - i: "+i+" m:"+m+"<br>");
+			sj=0;
+submatriz.a[si]=new Array();		// se crea nueva fila de Array para las columnas	
+				for(var j=0;j<n;j++)
+				{
+document.write("indicej: "+ indicej  + " i: "+ i+" j: "+ j+" n:" + n + " si: "+ si+" sj:"+sj+" <br>");
+
+				if (j!=indicej) {
+					submatriz.a[si][sj]=this.a[i][j];
+				
+document.write("indicej: "+ indicej  + " i: "+ i+" j: "+ j+" si: "+ si+" sj: "+ sj +"submatriz.a (si sj): " + submatriz.a[si][sj] +" this.a (i j)"+this.a[i][j]+"<br>");
+					sj++;
+					}
+				}
+document.write("incrementa si <br>");
+				si++;
+			}
+//			document.write(m + "filas " + signo + " " + this.a[i][0] +" ");
+//			Determinante=Determinante + (signo * this[i][0] * submatriz.determinante());
+			
+		submatriz.escribe();
+		//
+		// calculo de submatrices
+		// calculo de signo por elemento
+		// recursividad a calcuclo de determinante
+		//
+
+		
+//			}
+		}
+	}
+
+document.write(" devuelve determinante ");	
+return Determinante;
+	
+}
+
+
+function matriz()
+	{
+
+document.write("<br><br> --- <br> Inicio FUNCION constructor matriz . . . <br>");
+document.write(" ************************************<br>");
+	var mfilas=arguments.length;
+	this.a = new Array();
+	this.escribe= escribeMatriz;
+	this.determinante=determinante;
+	this.filas=mfilas;
+	this.columnas=0;
+	
+
+	document.write(mfilas+" filas :  <br>");
+	
+	for(var i=0; i<mfilas; i++)
+		{
+		document.write(" fila [ "+i+" ]:   ");
+		var ncolumnas=arguments[i].length;
+		this.a[i] = new Array();
+		if(ncolumnas>this.columnas){this.columnas=ncolumnas;}
+
+		document.write(ncolumnas+" columnas : ");
+
+		for(var j=0; j<ncolumnas; j++)
+			{
+			this.a[i][j]=arguments[i][j];
+			document.write(" a ["+i+"]["+j+"]: "+ arguments[i][j]);
+
+//			document.write(" A ["+i+"]["+j+"]: "+ this.a[i][j]);
+			}		
+		document.write("<br>");
+		}
+	document.write("<br>-----------------------------<br>");
+	}
+
+		
+// MATRIZ1 = new matriz([1,2,4,6],[3,5,9,11],[7,0,12],[23,45,3,4,5,6],[67,89,098]);
+//MATRIZ1.escribe();
+//MATRIZ5= new matriz();
+//MATRIZ5.escribe();
+//MATRIZ2 = new matriz([1,2,4],[3,5,9],[7,0,12],[23,5,6],[67,89,098]);
+//MATRIZ2.escribe();
+
+/**
+MATRIZ6 = new matriz([1,3],[5,3]);
+MATRIZ6.escribe();
+document.write("<br>***************determinante :" + MATRIZ6.determinante() +" *********<br>");
+
+MATRIZ = new matriz([1,3,4],[5,3,8],[8,8,2]);
+MATRIZ.escribe();
+document.write("<br>***************determinante :" + MATRIZ.determinante() +" *********<br>");
+**/
+MATRIZ = new matriz([11,12,13,14],[21,22,23,24],[31,32,33,34],[41,42,43,44]);
+MATRIZ.escribe();
+document.write("<br>***************determinante :" + MATRIZ.determinante() +" *********<br>");
+
+
+</script>
+
+</body>
+
+</html>

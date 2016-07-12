@@ -1,0 +1,113 @@
+
+<html>
+
+<body>
+
+<script>
+
+// calculo matrices
+// calculo determinantes
+// calculo rango de matricesvar matrizA = new Array();
+
+var n = new Array();
+var m = new Array();
+
+
+
+function escribeMatriz()
+ {
+document.write(" Inicio FUNCION ESCRIBE MATRIZ . . . <br>");
+document.write(" ************************************<br>");
+document.write(this.filas + " filas <br>");
+document.write(this.columnas + " columnas <br>");
+
+ var filas = this.a.length;
+ for(i=0;i<filas;i++)
+	{
+	var columnas =this.a[i].length;
+	 for(j=0;j<columnas;j++)
+			{
+			document.write(" A ["+i+"]["+j+"]: "+ this.a[i][j]);
+			}
+	document.write("<br>");
+	}
+
+}
+
+
+function determinante(){
+var m=this.filas;
+var n=this.columnas;
+var Det;
+if (m!=n){
+	document.write("Matriz de "+m+" x "+" n. <BR>");
+	return;
+	}
+
+if (m=2){
+	Det = (this.a[0][0] * this.a[1][1]) - (this.a[1][0] * this.a[0][1]);
+
+	}
+
+for(var i=0;i<m;i++)
+	{
+	for (var j=0;j<n;j++)
+		{
+		
+		}
+
+return Det;
+}
+
+
+function matriz()
+	{
+
+document.write(" Inicio FUNCION constructor matriz . . . <br>");
+document.write(" ************************************<br>");
+	var mfilas=arguments.length;
+	this.a = new Array();
+	this.escribe= escribeMatriz;
+	this.filas=mfilas;
+	this.columnas=0;
+	
+
+	document.write(mfilas+" filas :  <br>");
+	
+	for(var i=0; i<mfilas; i++)
+		{
+		document.write(" fila [ "+i+" ]:   ");
+		var ncolumnas=arguments[i].length;
+		this.a[i] = new Array();
+		if(ncolumnas>this.columnas){this.columnas=ncolumnas;}
+
+		document.write(ncolumnas+" columnas : ");
+
+		for(var j=0; j<ncolumnas; j++)
+			{
+			this.a[i][j]=arguments[i][j];
+			document.write(" a ["+i+"]["+j+"]: "+ arguments[i][j]);
+
+//			document.write(" A ["+i+"]["+j+"]: "+ this.a[i][j]);
+			}		
+		document.write("<br>");
+		}
+	document.write("<br>-----------------------------<br>");
+	}
+
+		
+MATRIZ1 = new matriz([1,2,4,6],[3,5,9,11],[7,0,12],[23,45,3,4,5,6],[67,89,098]);
+		
+
+MATRIZ1.escribe();
+
+MATRIZ2 = new matriz([1,2,4],[3,5,9],[7,0,12],[23,5,6],[67,89,098]);
+		
+
+MATRIZ2.escribe();
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html>
+ <head>
+    <title>Canvas tercer ejemplo</title>
+ 
+<script>
+ var x=0;
+ var contexto;
+	
+ 
+ 
+ //Recibe un identificador del elemento canvas y carga el canvas
+ //Devueve el contexto del canvas o FALSE si no ha podido conseguise
+ function cargaContextoCanvas(idCanvas){
+    var elemento = document.getElementById(idCanvas);
+    if(elemento && elemento.getContext){
+       contexto = elemento.getContext('2d');
+       if(contexto){
+          return contexto;
+       }
+    }
+    return FALSE;
+ }
+
+	
+window.onload = function(){
+    //Recibimos el elemento canvas
+    contexto = cargaContextoCanvas('micanvas');
+
+    if(contexto){
+	 //Si tengo el contexto 
+	//cambio el color de dibujo a azul
+	 contexto.fillStyle = '#6666ff';
+	 //dibujo un rectángulo azul
+	 contexto.fillRect(10,10,790,590);
+	 //cambio el color a amarillo con un poco de transparencia
+	// contexto.fillStyle = 'rgba(255,255,0,0.7)';
+	 //pinto un rectángulo amarillo semitransparente
+	// contexto.fillRect(35,35,50,50);
+  
+	actualiza();
+ 
+ 
+ 
+	}
+ }
+
+function actualiza(){
+//contexto = cargaContextoCanvas('micanvas');
+ contexto.fillStyle = '#6666ff';
+ contexto.fillRect(x,20,50,50);
+ 	x=x+2;
+ contexto.fillStyle = 'rgba(255,255,0,0.7)';
+ //pinto un rectángulo amarillo semitransparente
+ contexto.fillRect(x,20,50,50);
+
+document.getElementById("texto").innerHTML=("X: "+ x);
+
+setTimeout("actualiza()",1);
+}  
+ 
+</script>
+ 
+</head>
+ 
+<body>
+ 
+<canvas id="micanvas" width="800" height="600">
+ Tu navegador no soporta canvas.
+ </canvas>
+
+ <div id="texto"></div>
+ 
+</body>
+ </html> 

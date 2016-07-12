@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+.marcador{position:absolute;width:50px;height:50px;border:3px;border-color:#ff0;border-style:solid}
+#sphere{position:absolute;width:300px;height:30px;border:2px;border-color:#00f;border-style:solid}
+#sphere2{position:absolute;width:30px;height:30px;border-radius:10px;-webkit-radius:10px;background-color:#00f}
+#sphere2{position:absolute;width:30px;height:30px;border-radius:0px;-webkit-radius:0px;background-color:#f00}
+
+#sphere3{position:absolute;width:40px;height:30px;border-radius:10px;border-width:10px; border-color:#0f0}
+
+</style>
+
+
+<script>
+
+var imgAncho, imgAlto;
+var imgXorigen, imgYorigen;
+var ptoX, ptoY;
+var numPTO = 0;
+var listapuntosTXT;
+var imgSTOP, imgSLEFT;
+var imgTOP, imgLEFT;
+
+
+function Punto(){
+this.x = 0;
+this.y = 0;
+}
+
+
+var pto = new Array();
+
+
+
+function cargaImagen()
+{
+var img = document.getElementById("imagen");
+img.src= document.getElementById("seleccionArchivo").value;
+imgAncho = img.width;
+imgAlto = img.height;
+imgXorigen = imgAncho /2;
+imgYorigen = imgAlto /2;
+
+imgSTOP = img.style.top;
+imgSLEFT = img.style.left;
+imgTOP = img.offsetTop;
+imgLEFT = img.offsetLeft;
+
+
+//imgTOP=147;
+//imgLEFT=8;
+
+}
+
+function incAncho()
+{
+document.getElementById("imagen").width = document.getElementById("imagen").width + 50;
+}
+
+function decAncho()
+{
+document.getElementById("imagen").width = document.getElementById("imagen").width - 50;
+}
+
+function incAlto()
+{
+document.getElementById("imagen").height = document.getElementById("imagen").height + 50;
+}
+
+function decAlto()
+{
+var img = document.getElementById("imagen")
+img.height = document.getElementById("imagen").height - 50;
+
+}
+
+function coordenadas(ev){
+var x= ev.clientX;
+var y =ev.clientY;
+var ox= ev.offsetX;
+var oy =ev.offsetY;
+var infoTXT = document.getElementById("TFI");
+
+ptoX = ox - imgXorigen;
+ptoY = oy - imgYorigen;
+
+var TXTCoord = "";
+
+TXTCoord=TXTCoord + ("imgTOP: " + imgTOP + "; imgLEFT: " + imgLEFT + "<br>");
+TXTCoord=TXTCoord + ("imgSTOP: " + imgSTOP + "; imgSLEFT: " + imgSLEFT + "<br>");
+TXTCoord=TXTCoord + ("X: "+x+";  Y: "+y+"<br>Offset X: "+ox+"Offset Y: "+oy+"<br>"+ "imgX : "+ptoX+"; imgY : "+ptoY);
+TXTCoord=TXTCoord + "<br> Ancho : " + imgAncho + "; Alto : "+imgAlto+ "<br>";
+
+TXTCoord=TXTCoord + listapuntosTXT;
+
+infoTXT.innerHTML = (TXTCoord);
+
+
+}
+
+
+function grabapunto(ev){
+var x= ev.clientX;
+var y =ev.clientY;
+var ox= ev.offsetX;
+var oy =ev.offsetY;
+
+ptoX = ox - imgXorigen;
+ptoY = oy - imgYorigen;
+
+
+pto[numPTO] = new Punto();
+pto[numPTO].x = ptoX;
+pto[numPTO].y = ptoY;
+numPTO+=1;
+
+listapuntosTXT = " Numero de puntos : " + numPTO + ". <br>";
+for (var i=0; i<numPTO;i++)
+	{
+
+	listapuntosTXT = listapuntosTXT + (" Punto " + i + "( X: " + pto[i].x + " ; Y: " + pto[i].y + " ) <br>");
+	}
+
+var recuadro = document.getElementById("sphere");
+//recuadro.style.left = (x)+"px";
+//recuadro.style.top = (y)+"px";
+recuadro.style.left = (ox + imgLEFT)+"px";
+recuadro.style.top = (oy + imgTOP)+"px";
+
+
+recuadro.innerHTML=(numPTO + ": ( "+ ptoX + " , " + ptoY + " ) --- X: "+x+";  Y: "+y);
+recuadro.title=recuadro.innerHTML;
+
+    var posicion = document.getElementById("contenedor_imagen");
+	var parrafo = document.createElement('div');
+    var texto = document.createTextNode(recuadro.innerHTML);
+    parrafo.appendChild(texto);
+	posicion.appendChild(parrafo);
+	parrafo.className="marcador";
+parrafo.title=parrafo.innerHTML;
+parrafo.style.top= (oy + imgTOP+-25)+"px";
+parrafo.style.left = (ox + imgLEFT+-25)+"px";
+// parrafo.onmouseover=function(){ parrafo.style.borderColor=#ff0000;};
+// parrafo.onmouseout=function(){ this.borderColor=#0f0 };
+
+
+}
+
+
+
+</script>
+</head>
+
+<body>
+<input type="file" id="seleccionArchivo" onchange="cargaImagen()">
+<br>
+<button id="btnIncAncho" onclick="incAncho()">Incrementa Ancho</button>
+<button id="btnDecAncho" onclick="decAncho()">Decrementa Ancho</button>
+<br>
+<button id="btnIncAlto" onclick="incAlto()">Incrementa Alto</button>
+<button id="btnDecAlto" onclick="decAlto()">Decrementa Alto</button>
+
+<br>
+<div id="sphere" title="Tooltip sphere">1</div>
+<br>
+<div id="sphere2" onmousemove="function(){this.style.backgrund-color=#0f0;}" value="Prueba de tooltip" title="Tooltip 2">2</div>
+<br>
+<div id="sphere3">3</div>
+<br>
+
+<br>
+<div id="contenedor_imagen">
+<img id="imagen" onmousemove="coordenadas(event)" onclick="grabapunto(event)" alt="Imagen de trabajo"></img>
+</div>
+<br>
+<div id="TFI"><br><br></div>
+</body>
+
+
+</html>

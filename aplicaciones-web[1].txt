@@ -1,0 +1,515 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" dir="ltr" lang="es-ES">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>  Aplicaciones Web | Janium</title>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="http://www.janium.com/wp-content/themes/TheProfessional/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Janium RSS Feed" href="http://www.janium.com/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Janium Atom Feed" href="http://www.janium.com/feed/atom/" />
+<link rel="pingback" href="http://www.janium.com/xmlrpc.php" />
+
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://www.janium.com/wp-content/themes/TheProfessional/css/ie6style.css" />
+	<script type="text/javascript" src="http://www.janium.com/wp-content/themes/TheProfessional/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img#logo, ul.nav li.backLava, ul.nav li.backLava div.leftLava, #menu, #search-form, #featured, div.slide div.overlay, a#left-arrow, a#right-arrow, div.description, a.readmore, a.readmore span, ul.nav ul li a, #content-bottom, div.service img.service-icon, #controllers, #controllers-top, #controllers-main, #controllers a span.tooltip span.left-arrow, span.overlay, div.hr, #content-top, div.top-alt, div.bottom-alt, #content-bottom, #breadcrumbs span.sep');</script>
+<![endif]-->
+<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="http://www.janium.com/wp-content/themes/TheProfessional/css/ie7style.css" />
+<![endif]-->
+<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="http://www.janium.com/wp-content/themes/TheProfessional/css/ie8style.css" />
+<![endif]-->
+
+<script type="text/javascript">
+	document.documentElement.className = 'js';
+</script>
+
+<meta content="TheProfessional v.1.7" name="generator"/><link media="screen" type="text/css" href="http://www.janium.com/wp-content/themes/TheProfessional/epanel/page_templates/js/prettyphoto/prettyPhoto.css" rel="stylesheet" />
+<link media="screen" type="text/css" href="http://www.janium.com/wp-content/themes/TheProfessional/epanel/page_templates/page_templates.css" rel="stylesheet" /><link rel='stylesheet' id='wpimageflow2css-css'  href='http://www.janium.com/wp-content/plugins/wp-imageflow2/css/screen.css?ver=2.9.2' type='text/css' media='' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='http://www.janium.com/wp-content/themes/TheProfessional/epanel/shortcodes/shortcodes.css?ver=1.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.janium.com/wp-includes/js/jquery/jquery.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://www.janium.com/wp-content/plugins/wp-imageflow2/js/imageflowplus.js?ver=2.9.2'></script>
+<script type='text/javascript' src='http://www.janium.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<script type='text/javascript' src='http://www.janium.com/wp-content/themes/TheProfessional/epanel/shortcodes/js/et_shortcodes_frontend.js?ver=1.6'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.janium.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.janium.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Janium' href='http://www.janium.com' />
+<link rel='up' title='Ventajas' href='http://www.janium.com/productos/janium/ventajas/' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='http://www.janium.com/productos/janium/ventajas/aplicaciones-web/' />
+<link rel="stylesheet" type="text/css" href="http://www.janium.com/wp-content/plugins/fbconnect/fbconnect.css?ver=svn-62" />
+			<link rel="stylesheet" type="text/css" href="http://www.janium.com/index.php?ak_action=aktt_css&v=2.4" />
+			<script type="text/javascript" src="http://www.janium.com/index.php?ak_action=aktt_js&v=2.4"></script>
+		<link rel="shortcut icon" href="http://www.janium.com/wp-uploads/2011/05/janium_2011_www.gif" />	<style type="text/css">
+		#et_pt_portfolio_gallery { margin-left: -15px; }
+		.et_pt_portfolio_item { margin-left: 11px; }
+		.et_portfolio_small { margin-left: -3px !important; }
+		.et_portfolio_small .et_pt_portfolio_item { margin-left: 22px !important; }
+		.et_portfolio_large { margin-left: -34px !important; }
+		.et_portfolio_large .et_pt_portfolio_item { margin-left: 13px !important; }
+	</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23336679-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+            <span class="logolink">
+                <a href="http://www.janium.com">					<img src="http://www.janium.com/wp-uploads/2011/04/logo-transparente.gif" alt="Logo" id="logo"/></a>
+             </span>
+			
+			<div id="menu">
+									<ul class="nav">
+												
+						<li class="page_item page-item-3"><a href="http://www.janium.com/productos/" title="Productos">Productos</a>
+<ul>
+	<li class="page_item page-item-1348"><a href="http://www.janium.com/productos/janium-escolar/" title="Janium Escolar">Janium Escolar</a></li>
+	<li class="page_item page-item-7"><a href="http://www.janium.com/productos/janium/" title="Janium">Janium</a>
+	<ul>
+		<li class="page_item page-item-10"><a href="http://www.janium.com/productos/janium/modulos/" title="Módulos">Módulos</a></li>
+		<li class="page_item page-item-12"><a href="http://www.janium.com/productos/janium/caracteristicas/" title="Características">Características</a></li>
+		<li class="page_item page-item-14"><a href="http://www.janium.com/productos/janium/objetos-digitales/" title="Objetos digitales">Objetos digitales</a></li>
+		<li class="page_item page-item-16 current_page_parent"><a href="http://www.janium.com/productos/janium/ventajas/" title="Ventajas">Ventajas</a>
+		<ul>
+			<li class="page_item page-item-18 current_page_item"><a href="http://www.janium.com/productos/janium/ventajas/aplicaciones-web/" title="Aplicaciones Web">Aplicaciones Web</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-28"><a href="http://www.janium.com/productos/janium/casos-de-exito/" title="Casos de éxito">Casos de éxito</a></li>
+		<li class="page_item page-item-40"><a href="http://www.janium.com/productos/janium/costos/" title="Costos">Costos</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-50"><a href="http://www.janium.com/productos/janiumnet/" title="JaniumNet">JaniumNet</a>
+	<ul>
+		<li class="page_item page-item-54"><a href="http://www.janium.com/productos/janiumnet/administracion/" title="Administración">Administración</a></li>
+		<li class="page_item page-item-56"><a href="http://www.janium.com/productos/janiumnet/acceso/" title="Acceso">Acceso</a></li>
+		<li class="page_item page-item-58"><a href="http://www.janium.com/productos/janiumnet/servicios/" title="Servicios">Servicios</a></li>
+		<li class="page_item page-item-60"><a href="http://www.janium.com/productos/janiumnet/casos-de-exito/" title="Casos de éxito">Casos de éxito</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-63"><a href="http://www.janium.com/productos/janiumlink/" title="JaniumLink">JaniumLink</a></li>
+	<li class="page_item page-item-81"><a href="http://www.janium.com/productos/enki/" title="Enki">Enki</a>
+	<ul>
+		<li class="page_item page-item-83"><a href="http://www.janium.com/productos/enki/caracteristicas/" title="Características">Características</a></li>
+		<li class="page_item page-item-85"><a href="http://www.janium.com/productos/enki/busquedas/" title="Búsquedas">Búsquedas</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-88"><a href="http://www.janium.com/productos/librarian/" title="Librarian">Librarian</a>
+	<ul>
+		<li class="page_item page-item-91"><a href="http://www.janium.com/productos/librarian/arquitectura/" title="Arquitectura">Arquitectura</a></li>
+		<li class="page_item page-item-93"><a href="http://www.janium.com/productos/librarian/caracteristicas/" title="Características">Características</a></li>
+		<li class="page_item page-item-95"><a href="http://www.janium.com/productos/librarian/modulos/" title="Módulos">Módulos</a></li>
+		<li class="page_item page-item-97"><a href="http://www.janium.com/productos/librarian/ventajas/" title="Ventajas">Ventajas</a>
+		<ul>
+			<li class="page_item page-item-99"><a href="http://www.janium.com/productos/librarian/ventajas/objetos-digitales/" title="Objetos digitales">Objetos digitales</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-101"><a href="http://www.janium.com/productos/librarian/casos-de-exito/" title="Casos de éxito">Casos de éxito</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-1362"><a href="http://www.janium.com/productos/sceye/" title="Sceye">Sceye</a></li>
+</ul>
+</li>
+<li class="page_item page-item-104"><a href="http://www.janium.com/servicios/" title="Servicios">Servicios</a>
+<ul>
+	<li class="page_item page-item-106"><a href="http://www.janium.com/servicios/para-bibliotecas/" title="Para bibliotecas">Para bibliotecas</a></li>
+	<li class="page_item page-item-108"><a href="http://www.janium.com/servicios/para-archivos/" title="Para archivos">Para archivos</a></li>
+</ul>
+</li>
+<li class="page_item page-item-481"><a href="http://www.janium.com/pruebe-nuestros-productos/" title="Pruebe nuestros productos">Pruebe nuestros productos</a></li>
+<li class="page_item page-item-124"><a href="http://www.janium.com/contacto/" title="Contacto">Contacto</a>
+<ul>
+	<li class="page_item page-item-121"><a href="http://www.janium.com/contacto/solicitar-informacion/" title="Solicitar información">Solicitar información</a></li>
+</ul>
+</li>
+							<li class="cat-item cat-item-17"><a href="http://www.janium.com/category/actualidad/" title="Aquí irán englobadas todas las entradas, para poder acceder a ellas desde el menú.">Actualidad</a>
+<ul class='children'>
+	<li class="cat-item cat-item-18"><a href="http://www.janium.com/category/actualidad/productos/" title="Entradas relacionadas con modificaciones en las aplicaciones, sin distinción de producto.">Productos</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-19"><a href="http://www.janium.com/category/actualidad/productos/janium-productos-actualidad/" title="Entradas relacionadas con el producto Janium. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Janium</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.janium.com/category/actualidad/productos/janiumnet-productos-actualidad/" title="Entradas relacionadas con el producto JaniumNet. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">JaniumNet</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.janium.com/category/actualidad/productos/janiumlink/" title="Entradas relacionadas con el producto Janiumlink. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Janiumlink</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://www.janium.com/category/actualidad/productos/enki/" title="Entradas relacionadas con el producto Enki. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Enki</a>
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.janium.com/category/actualidad/productos/sceye/" title="Ver todas las entradas archivadas en Sceye">Sceye</a>
+</li>
+	</ul>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.janium.com/category/actualidad/nuestros-clientes/" title="Información sobre nuestros clientes. Noticias relacionadas con ellos (actividades, premios, proyectos, etc.. )">Nuestros clientes</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.janium.com/category/actualidad/mexico/" title="Noticias del sector en México.">México</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.janium.com/category/actualidad/colombia-actualidad/" title="Noticias del sector en Colombia.">Colombia</a>
+</li>
+	<li class="cat-item cat-item-27"><a href="http://www.janium.com/category/actualidad/chile/" title="Noticias del sector en Chile.">Chile</a>
+</li>
+	<li class="cat-item cat-item-28"><a href="http://www.janium.com/category/actualidad/costa-rica-actualidad/" title="Noticias del sector en Costa Rica.">Costa Rica</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="http://www.janium.com/category/actualidad/espana/" title="Noticias del sector en España.">España</a>
+</li>
+</ul>
+</li>
+					
+					</ul> <!-- end ul.nav -->
+								
+								
+				<div id="search-form">
+					<form method="get" id="searchform" action="http://www.janium.com">
+						<input type="text" value="buscar en la web..." name="s" id="searchinput" />
+
+						<input type="image" src="http://www.janium.com/wp-content/themes/TheProfessional/images/search_btn.png" id="searchsubmit" />
+					</form>
+				</div> <!-- end #search-form -->
+			</div> <!-- end #menu -->		
+		</div> <!-- end #header -->
+		
+				
+	
+	<div id="content-top" class="top-alt"></div>
+	<div id="content" class="clearfix content-alt">
+		<div id="content-area">
+			<div id="breadcrumbs">
+		
+					<a href="http://www.janium.com">Home</a> <span class="sep"></span>
+				
+									  Aplicaciones Web					
+</div> <!-- end #breadcrumbs -->
+											
+			<div class="entry clearfix post">
+				<h1 class="title">Aplicaciones Web</h1>
+				
+								
+				
+<!-- AddThis Button Begin -->
+<script type="text/javascript">var addthis_product = 'wpp-254';
+var addthis_config = {"data_track_clickback":true};</script><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=wp-50ebe93d17c27fd1"></script><p><span style="color: #000000;"><img src="http://www.janium.com/www_actual/page2/page1/page6/page7/files/page7_1.jpg" alt="banner-aplicaciones" width="468" height="128" /></span></p>
+<h2><span style="color: #000000;">1. Diseño de Aplicaciones</span></h2>
+<h3><span style="color: #000000;">Interfaz del usuario</span></h3>
+<p><span style="color: #000000;">La interfaz del usuario es el         corazón de cualquier aplicación. Es la conexión entre la         aplicación y el usuario final. El usuario final se comunica         con la aplicación a través de comandos y menús. Los dos         tipos de interfaces de usuario más comunes son las         conducidas por comandos (como en las aplicaciones de DOS),         y las conducidas por menús (como en las aplicaciones de         WINDOWS). Un buen programa, con una interfaz de usuario         diseñada pobremente, nunca alcanzará su potencial.</span></p>
+<p><span style="color: #000000;">Muchas aplicaciones utilizan Interfaces de Usuario Gráficas         (o Graphical User Interfaces GUI), que toman ventaja de         ventanas predefinidas e iconos, para proporcionar una         apariencia común y reducir el tiempo de desarrollo. Las         soluciones basadas en WEB van un paso más adelante y         utilizan un explorador GUI (generalmente FIREFOX o Internet         EXPLORER), que se ha convertido en el estándar de la         mayoría de las PC&#8217;s.</span></p>
+<h3><span style="color: #000000;">Arquitectura de dos capas</span></h3>
+<p><span style="color: #000000;">La arquitectura         tradicional de cliente/servidor también es conocida como         arquitectura de dos capas. Requiere una interfaz de usuario         que se instala y corre en una PC o estación de trabajo; y         envía solicitudes a un servidor para ejecutar operaciones         complejas. Por ejemplo, una estación de trabajo utilizada         como cliente, puede correr un aplicación de interfaz de         usuario que interroga a un servidor central de bases de         datos.</span></p>
+<h3><span style="color: #000000;">Arquitectura de tres capas</span></h3>
+<p><span style="color: #000000;">La arquitectura de tres         capas se refiere a un diseño reciente que introduce una         capa intermedia al proceso. Cada capa es un proceso         separado y bien definido corriendo en plataformas         separadas.</span></p>
+<p><span style="color: #000000;">En la arquitectura tradicional de tres capas, se instala         una interfaz de usuario en la computadora del usuario final         (el cliente). La arquitectura basada en WEB transforma la         interfaz de búsqueda existente (el explorador de WEB), en         la interfaz del usuario final.<br />
+La parte funcional de la arquitectura de tres capas         generalmente es conocida como la capa intermedia o el         servidor de aplicaciones. Este es donde la mayoría de los         procesos ocurren.</span></p>
+<p><span style="color: #000000;">La tercera capa comúnmente es el sistema de administración         de la base de datos. Es decir donde los datos requeridos         por la capa intermedia son almacenados. La tercera capa se         localiza en un servidor separado conocido como el servidor         de base de datos.</span></p>
+<h2><span style="color: #000000;">2. Servidor de Aplicaciones</span></h2>
+<p><span style="color: #000000;">El servidor de         aplicaciones fue introducido como parte del diseño de tres         capas. Es relativamente nuevo y aún no bien definido. Las         empresasdel mundo entero están esforzándose para producir         su propia versión de lo que creen que es un servidor de         aplicaciones. Martin Marshall, de Zona Research, sugiere         que hay confusión en el término servidor de aplicaciones.         La definición más común de un servidor de aplicaciones es         la de software corriendo en una capa intermedia entre un         cliente pequeño basado en un explorador y una base de         datos. Generalmente se acepta que un servidor de         aplicaciones maneja todas las transacciones lógicas y de         conectividad que históricamente compartían el cliente y el         servidor en un diseño cliente/servidor. La aplicación         lógica ha sido movida de clientes grandes y pasados de moda         a nuevos servidores de aplicaciones como capa         intermedia.</span></p>
+<h2><span style="color: #000000;">3. Plataformas</span></h2>
+<h3><span style="color: #000000;">Cliente/Servidor</span></h3>
+<p><span style="color: #000000;">Cliente/Servidor se refiere a una         relación cooperativa entre dos o más entidades. En la         mayoría de los casos, el cliente requiere recursos y         servicios que el servidor le proporciona. Ambos procesos         pueden existir en una máquina o en máquinas separadas que         se comunican a través de una red. La mayoría de las         soluciones cliente/servidor son arquitecturas de dos capas.         Esto significa que la aplicación lógica es dividida entre         las aplicaciones del cliente y la base de datos.</span></p>
+<h3><span style="color: #000000;">Basada en WEB</span></h3>
+<p><span style="color: #000000;">La arquitectura basada en WEB realmente es una forma         modificada de la nueva arquitectura de tres capas que         utiliza un explorador en la estación de trabajo en lugar de         la interfaz típica del usuario. Las soluciones basadas en         WEB utilizan el protocolo World Wide WEB, a través de la         Internet o una intranet, para conectar las tres partes de         la aplicación.</span></p>
+<p><span style="color: #000000;">La World Wide WEB (WWW) es una combinación de servidores de         Internet que utilizan formatos estándares como HTML         (Hypertext markup Language) para proporcionar ligas a otros         documentos, gráficas y archivos de audio y video. Sin         embargo, no todos los servidores de Internet están en la         WWW. También pueden encontrarse en intranets que sólo son         accesibles a usuarios internos. El crecimiento de la WWW         creó un &#8220;boom&#8221; que ha conducido al desarrollo de         aplicaciones e instrumentos que son útiles para más que sus         intenciones originales de Internet. Parte del &#8220; boom&#8221; de         la WWW ha sido la creación de exploradores de WEB. Los dos         más populares son el Internet EXPLORER de MICROSOFT y el         NETSCAPE Navigator. Uno de los resultados más excitantes de         estos exploradores ha sido la posibilidad de incorporarlos         a soluciones que se extienden más allá de la exploración en         Internet.</span></p>
+<h2><span style="color: #000000;">4. Comparaciones</span></h2>
+<h3><span style="color: #000000;">Ventajas del sistema de dos capas</span></h3>
+<ul>
+<li><span style="color: #000000;">El desarrollo de aplicaciones en un ambiente de dos           capas es mucho más rápido que en ambientes anteriores,           pero no es necesariamente más rápido que con el nuevo           ambiente de tres capas.<br />
+• Las herramientas para el desarrollo con dos capas son           robustas y evaluadas. Las técnicas de prototipo se           emplean fácilmente.<br />
+• Las soluciones de dos capas trabajan bien en ambientes           no dinámicos estables, pero no se ejecutan bien en           organizaciones rápidamente cambiantes.</span></li>
+</ul>
+<h3><span style="color: #000000;">Desventajas del sistema de dos capas</span></h3>
+<ul>
+<li><span style="color: #000000;">Los ambientes de dos capas requieren control excesivo           de las versiones y demandan esfuerzo de distribución de           la aplicación cuando se les hacen cambios. Esto se debe           al hecho de que la mayoría de la aplicación lógica existe           en la estación de trabajo del cliente.<br />
+• La seguridad del sistema en un diseño de dos capas es           compleja y a menudo requiere administración de las bases           de datos, debido al número de dispositivos con acceso           directo al ambiente de esas bases de datos.<br />
+• Las herramientas del cliente y de la base de datos,           utilizadas en diseños de dos capas, constantemente están           cambiando. La dependencia, a largo plazo, de cualquier           herramienta, puede complicar el escalamiento futuro o las           implementaciones.</span></li>
+</ul>
+<h3><span style="color: #000000;">Ventajas de una arquitectura de tres capas</span></h3>
+<ul>
+<li><span style="color: #000000;">Las llamadas de la interfaz del usuario, en la           estación de trabajo, al servidor de capa intermedia, son           más flexibles que en el diseño de dos capas, ya que la           estación sólo necesita transferir parámetros a la capa           intermedia.<br />
+• Con la arquitectura de tres capas, la interfaz del           cliente no es requerida para comprender o comunicarse con           el receptor de los datos. Por lo tanto, esa estructura de           los datos puede ser modificada sin cambiar la interfaz           del usuario en la PC.<br />
+• El código de la capa intermedia puede ser reutilizado           por múltiples aplicaciones si está diseñado en formato           modular. Esto puede reducir los esfuerzos de desarrollo y           mantenimiento, así como los costos de migración.<br />
+• La separación de roles en tres capas, hace más fácil           reemplazar o modificar una capa sin afectar a los módulos           restantes.<br />
+• Separando la aplicación de la base de datos, hace más           fácil utilizar nuevas tecnologías de agrupamiento y           balance de cargas.<br />
+• Separando la interfaz del usuario de la aplicación,           libera de gran procesamiento a la estación de trabajo y           permite que las actualizaciones de la aplicación sean           centralizadas en el servidor de aplicaciones.</span></li>
+</ul>
+<h3><span style="color: #000000;">Desventajas de las arquitecturas de tres capas y         basadas en WEB</span></h3>
+<ul>
+<li><span style="color: #000000;">Los ambientes de tres capas pueden incrementar el           tráfico en la red y requerir más balance de carga y           tolerancia a las fallas.<br />
+• Los exploradores actuales no son todos iguales. La           estandarización entre diferentes proveedores ha sido           lenta en desarrollarse. Muchas organizaciones son           forzadas a escoger uno en lugar de otro, mientras que           cada uno ofrece sus propias y distintas ventajas.</span></li>
+</ul>
+<h2><span style="color: #000000;">5. Resumen</span></h2>
+<p><span style="color: #000000;">Los éxitos pasados de los sistemas cliente/servidor,         en su mayoría están relacionados con soluciones en pequeña         escala, que proporcionan acceso a sistemas basados en un         legado anticuado. Las cada vez más crecientes necesidades         de los clientes, así como también el crecimiento acelerado         de la Internet y las redes amplias, han forzado a las         organizaciones a moverse hacia las empresas de mercado de         soluciones. Con este movimiento se crean expectativas de         crecimiento del desempeño, de la flexibilidad, y de la         escalabilidad; así como de una disminución del tiempo de         desarrollo, de la administración y de los costos a largo         plazo.</span></p>
+<p><span style="color: #000000;">Más y más organizaciones se están moviendo a soluciones de         tres capas para alcanzar estas metas. La arquitectura de         tres capas supera limitaciones del diseño de dos capas,         separando la presentación, el procesamiento y los datos en         soportes separados. La presentación de las herramientas no         necesariamente debe cambiar, sino que los cálculos y los         accesos de datos se mueven a la capa intermedia para         aumentar el desempeño y la seguridad, así como para         disminuir los esfuerzos de implementación de las nuevas         versiones o de los cambios en el código.</span></p>
+<p><span style="color: #000000;">Para cada una de las organizaciones técnicas, la         arquitectura de tres capas incrementa la habilidad para         responder a los cambios y les permite reutilizar código,         simplifica el mantenimiento y hace más fácil la migración a         nuevas plataformas. Conforme continúa la transformación de         las prácticas obsoletas, las organizaciones deben cambiar y         crecer junto con las necesidades del medio, ofreciendo         soluciones viables.</span></p>
+<p><span style="color: #000000;">A medida que avanza la tecnología, el medio necesita         cambiar sus prácticas para utilizar las nuevas         herramientas. La orientación hacia los productos         cliente/servidor parece estar yendo más lejos cada día de         los sistemas de cómputo centralizados y más hacia la         computación distribuida. El medio también está acercándose         a productos &#8220;abiertos&#8221; y estándar, y alejándose del         software propietario, mientras que crece el uso de         servidores de aplicaciones. Con el movimiento hacia la         computación distribuida, y hacia los productos fáciles de         utilizar, ha habido un incremento en el número de         proveedores de servicio de aplicaciones (Application         Service Providers o ASP). Los ASP son la tercera parte de         las compañías que administran y distribuyen servicios         basados en software a clientes en la Internet o en una red         amplia, generalmente desde un centro de datos centralizado.         También son una forma de satisfacer las necesidades del         medio, así como de reducir los costos de mantenimiento de         recursos humanos adicionales y de adquirir nuevo hardware o         actualizaciones de software.</span></p>
+<p><a href="http://www.janium.com/wordpress/?page_id=3">Productos</a> ↔ <a href="http://www.janium.com/wordpress/?page_id=7">Janium</a> ↔ <a href="http://www.janium.com/wordpress/?page_id=16">Ventajas<br />
+</a> ↔ <a href="http://www.janium.com/wordpress/?page_id=18">Aplicaciones Web<br />
+</a></p>
+												
+			</div> <!-- end .entry -->
+                
+            			
+						
+		</div> <!-- end #content-area -->
+		
+		<div id="sidebar">
+	
+	<div id="vertical-scroll-recent-post" class="widget vsrp_widget"><h3 class="widgettitle">Ultimas entradas</h3>	
+		<div style="padding-top:8px;padding-bottom:8px;">
+			<div style="text-align:left;vertical-align:middle;text-decoration: none;overflow: hidden; position: relative; margin-left: 1px; height: 34px;" id="vsrp_Holder">
+				<div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/janium-firma-un-convenio-de-distribucion-con-sceye/'>Janium firma un convenio de distribución con Scey...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/60-aniversario-de-la-biblioteca-piloto-de-medellin/'>60 Aniversario de la Biblioteca Piloto de Medellí...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/digitalizacion-en-museo-casa-de-morelos/'>Digitalización en Museo Casa de Morelos...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/la-biblioteca-digital-de-la-semarnat-ya-esta-disponible-en-internet/'>La Biblioteca Digital de la Semarnat ya está disp...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/el-archivo-historico-de-medellin-digitaliza-parte-del-periodo-colonial/'>El Archivo Histórico de Medellín digitaliza part...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/presentamos-la-nueva-version-de-janium-version-11-03/'>Presentamos la nueva versión de Janium (versión ...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/productos/janiumnet-productos-actualidad/prestamos-de-e-book-desde-el-sistema-janium-de-la-red-de-bibliotecas-medellin-area-metropolitana/'>Préstamos de E-Book desde el sistema Janium de la...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/reconocen-en-venezuela-al-portal-redalyc/'>Reconocen en Venezuela al portal Redalyc...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/version-11-03-limitadores-de-busqueda-en-los-servicios-web-de-consulta/'>Versión 11.03 - Limitadores de búsqueda en los s...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/la-red-de-bibliotecas-de-la-camara-de-comercio-de-bogota-inicio-su-operacion-con-janium/'>La Red de Bibliotecas de la Cámara de Comercio de...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/cita-cultural-en-la-universidad-san-sebastian/'>Cita cultural en la Universidad San Sebastian...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/donacion-para-el-instituto-de-investigaciones-antropologicas-en-antofagasta/'>Donación para el Instituto de Investigaciones Ant...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/xlii-jornadas-mexicanas-de-biblioteconomia/'>XLII JORNADAS MEXICANAS DE BIBLIOTECONOMÍA...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/homenaje-al-%e2%80%9cescuadron-201%e2%80%9d-por-el-archivo-general-de-la-nacion/'>Homenaje al “Escuadrón 201” por el Archivo Ge...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/adabi-contrata-el-servicio-de-janiumnet/'>ADABI contrata el servicio de JaniumNet...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/reunion-anual-de-conpab-ies/'>REUNIÓN ANUAL DE CONPAB-IES...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/version-11-03-mejora-en-el-despliegue-de-la-puntuacion-automatica/'>Versión 11.03 - Mejora en el despliegue de la pun...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/version-11-03-janium-compartira-informacion-con-las-redes-sociales/'>Versión 11.03 - Janium compartirá información c...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/version-11-03-notas-publicas-en-los-ejemplares/'>Versión 11.03 - Notas públicas en los ejemplares...</a></div><div class='vsrp_div' style='height:30px;padding:2px 0px 2px 0px;'><a href='http://www.janium.com/actualidad/democratizar-el-conocimiento-nuestro-proposito-con-las-bibliotecas-publicas-alcaldia-de-medellin-colombia/'>"Democratizar el conocimiento: nuestro propósito ...</a></div>			</div>
+		</div>
+		<script type="text/javascript" src="http://www.janium.com/wp-content/plugins/vertical-scroll-recent-post/vertical-scroll-recent-post.js"></script>
+		<script type="text/javascript">
+		var vsrp_array	= new Array();
+		var vsrp_obj	= '';
+		var vsrp_scrollPos 	= '';
+		var vsrp_numScrolls	= '';
+		var vsrp_heightOfElm = '34'; // Height of each element (px)
+		var vsrp_numberOfElm = '5';
+		var vsrp_scrollOn 	= 'true';
+		function vsrp_createscroll() 
+		{
+			vsrp_array[0] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/janium-firma-un-convenio-de-distribucion-con-sceye/\'>Janium firma un convenio de distribución con Scey...</a></div>'; vsrp_array[1] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/60-aniversario-de-la-biblioteca-piloto-de-medellin/\'>60 Aniversario de la Biblioteca Piloto de Medellí...</a></div>'; vsrp_array[2] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/digitalizacion-en-museo-casa-de-morelos/\'>Digitalización en Museo Casa de Morelos...</a></div>'; vsrp_array[3] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/la-biblioteca-digital-de-la-semarnat-ya-esta-disponible-en-internet/\'>La Biblioteca Digital de la Semarnat ya está disp...</a></div>'; vsrp_array[4] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/el-archivo-historico-de-medellin-digitaliza-parte-del-periodo-colonial/\'>El Archivo Histórico de Medellín digitaliza part...</a></div>'; vsrp_array[5] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/presentamos-la-nueva-version-de-janium-version-11-03/\'>Presentamos la nueva versión de Janium (versión...</a></div>'; vsrp_array[6] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/productos/janiumnet-productos-actualidad/prestamos-de-e-book-desde-el-sistema-janium-de-la-red-de-bibliotecas-medellin-area-metropolitana/\'>Préstamos de E-Book desde el sistema Janium de la...</a></div>'; vsrp_array[7] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/reconocen-en-venezuela-al-portal-redalyc/\'>Reconocen en Venezuela al portal Redalyc...</a></div>'; vsrp_array[8] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/version-11-03-limitadores-de-busqueda-en-los-servicios-web-de-consulta/\'>Versión 11.03 - Limitadores de búsqueda en los s...</a></div>'; vsrp_array[9] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/la-red-de-bibliotecas-de-la-camara-de-comercio-de-bogota-inicio-su-operacion-con-janium/\'>La Red de Bibliotecas de la Cámara de Comercio de...</a></div>'; vsrp_array[10] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/cita-cultural-en-la-universidad-san-sebastian/\'>Cita cultural en la Universidad San Sebastian...</a></div>'; vsrp_array[11] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/donacion-para-el-instituto-de-investigaciones-antropologicas-en-antofagasta/\'>Donación para el Instituto de Investigaciones Ant...</a></div>'; vsrp_array[12] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/xlii-jornadas-mexicanas-de-biblioteconomia/\'>XLII JORNADAS MEXICANAS DE BIBLIOTECONOMÍA...</a></div>'; vsrp_array[13] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/homenaje-al-%e2%80%9cescuadron-201%e2%80%9d-por-el-archivo-general-de-la-nacion/\'>Homenaje al “Escuadrón 201” por el Archivo Ge...</a></div>'; vsrp_array[14] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/adabi-contrata-el-servicio-de-janiumnet/\'>ADABI contrata el servicio de JaniumNet...</a></div>'; vsrp_array[15] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/reunion-anual-de-conpab-ies/\'>REUNIÓN ANUAL DE CONPAB-IES...</a></div>'; vsrp_array[16] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/version-11-03-mejora-en-el-despliegue-de-la-puntuacion-automatica/\'>Versión 11.03 - Mejora en el despliegue de la pun...</a></div>'; vsrp_array[17] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/version-11-03-janium-compartira-informacion-con-las-redes-sociales/\'>Versión 11.03 - Janium compartirá información c...</a></div>'; vsrp_array[18] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/version-11-03-notas-publicas-en-los-ejemplares/\'>Versión 11.03 - Notas públicas en los ejemplares...</a></div>'; vsrp_array[19] = '<div class=\'vsrp_div\' style=\'height:30px;padding:2px 0px 2px 0px;\'><a href=\'http://www.janium.com/actualidad/democratizar-el-conocimiento-nuestro-proposito-con-las-bibliotecas-publicas-alcaldia-de-medellin-colombia/\'>\"Democratizar el conocimiento: nuestro propósito...</a></div>'; 			vsrp_obj	= document.getElementById('vsrp_Holder');
+			vsrp_obj.style.height = (vsrp_numberOfElm * vsrp_heightOfElm) + 'px'; // Set height of DIV
+			vsrp_content();
+		}
+		</script>
+		<script type="text/javascript">
+		vsrp_createscroll();
+		</script>
+		</div> <!-- end .widget --><div id="archives-4" class="widget widget_archive"><h3 class="widgettitle">Archivo</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Seleccionar mes</option> 	<option value='http://www.janium.com/2012/12/'> Diciembre 2012 &nbsp;(2)</option>
+	<option value='http://www.janium.com/2012/08/'> Agosto 2012 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2012/03/'> Marzo 2012 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2011/07/'> Julio 2011 &nbsp;(2)</option>
+	<option value='http://www.janium.com/2011/06/'> Junio 2011 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2011/05/'> Mayo 2011 &nbsp;(6)</option>
+	<option value='http://www.janium.com/2011/04/'> Abril 2011 &nbsp;(3)</option>
+	<option value='http://www.janium.com/2011/03/'> Marzo 2011 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2011/02/'> Febrero 2011 &nbsp;(3)</option>
+	<option value='http://www.janium.com/2011/01/'> Enero 2011 &nbsp;(2)</option>
+	<option value='http://www.janium.com/2010/12/'> Diciembre 2010 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2010/11/'> Noviembre 2010 &nbsp;(1)</option>
+	<option value='http://www.janium.com/2010/10/'> Octubre 2010 &nbsp;(2)</option>
+	<option value='http://www.janium.com/2010/08/'> Agosto 2010 &nbsp;(5)</option>
+	<option value='http://www.janium.com/2010/05/'> Mayo 2010 &nbsp;(3)</option>
+	<option value='http://www.janium.com/2010/04/'> Abril 2010 &nbsp;(5)</option>
+	<option value='http://www.janium.com/2010/03/'> Marzo 2010 &nbsp;(5)</option>
+	<option value='http://www.janium.com/2010/02/'> Febrero 2010 &nbsp;(10)</option>
+ </select>
+</div> <!-- end .widget --><div id="categories-3" class="widget widget_categories"><h3 class="widgettitle">Categorías</h3>		<ul>
+	<li class="cat-item cat-item-17"><a href="http://www.janium.com/category/actualidad/" title="Aquí irán englobadas todas las entradas, para poder acceder a ellas desde el menú.">Actualidad</a> (53)
+</li>
+	<li class="cat-item cat-item-27"><a href="http://www.janium.com/category/actualidad/chile/" title="Noticias del sector en Chile.">Chile</a> (3)
+</li>
+	<li class="cat-item cat-item-26"><a href="http://www.janium.com/category/actualidad/colombia-actualidad/" title="Noticias del sector en Colombia.">Colombia</a> (14)
+</li>
+	<li class="cat-item cat-item-28"><a href="http://www.janium.com/category/actualidad/costa-rica-actualidad/" title="Noticias del sector en Costa Rica.">Costa Rica</a> (1)
+</li>
+	<li class="cat-item cat-item-22"><a href="http://www.janium.com/category/actualidad/productos/enki/" title="Entradas relacionadas con el producto Enki. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Enki</a> (4)
+</li>
+	<li class="cat-item cat-item-29"><a href="http://www.janium.com/category/actualidad/espana/" title="Noticias del sector en España.">España</a> (1)
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.janium.com/category/actualidad/productos/janium-productos-actualidad/" title="Entradas relacionadas con el producto Janium. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Janium</a> (32)
+</li>
+	<li class="cat-item cat-item-21"><a href="http://www.janium.com/category/actualidad/productos/janiumlink/" title="Entradas relacionadas con el producto Janiumlink. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">Janiumlink</a> (2)
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.janium.com/category/actualidad/productos/janiumnet-productos-actualidad/" title="Entradas relacionadas con el producto JaniumNet. Modificaciones, lanzamiento de nuevas versiones, nuevas funcionalidades, etc...">JaniumNet</a> (7)
+</li>
+	<li class="cat-item cat-item-25"><a href="http://www.janium.com/category/actualidad/mexico/" title="Noticias del sector en México.">México</a> (12)
+</li>
+	<li class="cat-item cat-item-24"><a href="http://www.janium.com/category/actualidad/nuestros-clientes/" title="Información sobre nuestros clientes. Noticias relacionadas con ellos (actividades, premios, proyectos, etc.. )">Nuestros clientes</a> (27)
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.janium.com/category/actualidad/productos/" title="Entradas relacionadas con modificaciones en las aplicaciones, sin distinción de producto.">Productos</a> (22)
+</li>
+	<li class="cat-item cat-item-35"><a href="http://www.janium.com/category/actualidad/productos/sceye/" title="Ver todas las entradas archivadas en Sceye">Sceye</a> (1)
+</li>
+		</ul>
+</div> <!-- end .widget --><div id="twitter-1" class="widget widget_twitter"><h3 class="widgettitle"><a href="http://twitter.com/@janium" class="twitter_title_link">Siguenos en Twitter</a></h3><ul class="twitter"><li>No public Twitter messages.</li></ul></div> <!-- end .widget -->		
+</div> <!-- end #sidebar -->		
+	</div> <!-- end #content -->
+	<div id="content-bottom" class="bottom-alt"></div>
+	
+		<div id="footer" class="clearfix">
+			<p id="copyright">Designed by  <a href="http://www.elegantthemes.com" title="Elegant Themes">Elegant Themes</a> | Powered by  <a href="http://www.wordpress.org">Wordpress</a></p>
+		</div> <!-- end #footer -->
+		
+	</div> <!-- end #container -->	
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://www.janium.com/wp-content/themes/TheProfessional/js/jquery.cycle.all.min.js"></script> 
+	<script type="text/javascript" src="http://www.janium.com/wp-content/themes/TheProfessional/js/jquery.easing.1.3.js"></script>	
+	<script type="text/javascript" src="http://www.janium.com/wp-content/themes/TheProfessional/js/superfish.js"></script>
+	<script type="text/javascript" src="http://www.janium.com/wp-content/themes/TheProfessional/js/jquery.lavalamp.1.3.3-min.js"></script>	
+	<script type="text/javascript">
+	//<![CDATA[
+		jQuery.noConflict();
+	
+		jQuery('ul.nav').superfish({ 
+			delay:       200,                            // one second delay on mouseout 
+			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+			speed:       'fast',                          // faster animation speed 
+			autoArrows:  true,                           // disable generation of arrow mark-up 
+			dropShadows: false                            // disable drop shadows 
+		});
+		
+		jQuery('ul.nav > li > a.sf-with-ul').parent('li').addClass('sf-ul');
+		
+		
+		<!---- lavalamp ---->
+		jQuery('ul.nav ul > li').addClass('noLava');
+			
+		var startLink = 0;
+		
+		jQuery('ul.nav > li.current-cat-parent, ul.nav > li.current-cat, ul.nav > li.current_page_parent, ul.nav > li.current_page_item').each(function(){
+			startLink = jQuery(this).prevAll().length;
+		});
+		
+		jQuery('ul.nav').lavaLamp({ startItem: startLink });
+		if ( startLink !=0 ) jQuery('ul.nav > li.backLava').animate({left:'+=2'},0);
+		
+		
+		et_search_bar();
+		et_cycle_integration();
+		
+				
+		jQuery('#controllers-main a').hover(function(){
+			jQuery(this).find('span.tooltip').animate({ opacity: 'show', left: '-222px' }, 300);
+		},function(){
+			jQuery(this).find('span.tooltip').animate({ opacity: 'hide', left: '-232px' }, 300);
+		}); 
+		
+		
+		function et_cycle_integration(){
+			var $featured = jQuery('#featured'),
+				$featured_content = jQuery('#slides'),
+				$controller = jQuery('#controllers'),
+				$slider_control_tab = $controller.find('a');
+		
+			if ($featured_content.length) {
+				$controller.css("opacity","0").find('a img').css("opacity","0.7").end().find('a.active img').css("opacity","1");
+				
+				$featured_content.cycle({
+					fx: 'cover',
+					timeout: 0,
+					speed: 700,
+					cleartypeNoBg: true
+				});
+				
+			};
+			
+			var pause_scroll = false;
+			
+			jQuery('#slides, #controllers').hover(function(){
+				$controller.stop().animate({opacity: 1, top: "30px"},500);
+									pause_scroll = true;
+							}).mouseleave(function(){
+				$controller.stop().animate({opacity: 0, top: "15px"},500);
+									pause_scroll = false;
+							});
+			
+			$slider_control_tab.hover(function(){
+				jQuery(this).find('img').stop().animate({opacity: 1},300);
+			}).mouseleave(function(){
+				if (!jQuery(this).hasClass("active")) jQuery(this).find('img').stop().animate({opacity: 0.7},300);
+			});
+			
+			
+			var ordernum;				
+			
+			function gonext(this_element){
+				$controller.find("a.active img").stop().animate({opacity: 0.7},300).parent('a').removeClass('active');
+				
+				this_element.addClass('active').find('img').stop().animate({opacity: 1},300);
+				
+				ordernum = this_element.attr("rel");
+				$featured_content.cycle(ordernum-1);
+				
+				if (typeof interval != 'undefined') {
+					clearInterval(interval);
+					auto_rotate();
+				};
+			}
+			
+			$slider_control_tab.click(function(){
+				gonext(jQuery(this));
+				return false;
+			});
+			
+			
+			var $nextArrow = jQuery('a#right-arrow'),
+				$prevArrow = jQuery('a#left-arrow');
+			
+			$nextArrow.click(function(){
+				var activeSlide = $controller.find('a.active').attr("rel"),
+					$nextSlide = $controller.find('a:eq('+ activeSlide +')');
+				
+				if ($nextSlide.length) gonext($nextSlide)
+				else gonext($controller.find('a:eq(0)'));
+				
+				return false;
+			});
+			
+			$prevArrow.click(function(){
+				var activeSlide = $controller.find('a.active').attr("rel")-2,
+					$nextSlide = $controller.find('a:eq('+ activeSlide +')');
+								
+				if ($nextSlide.length && activeSlide != -1) { gonext($nextSlide); }
+				else {
+					var slidesNum = $slider_control_tab.length - 1;
+					gonext($controller.find('a:eq('+ slidesNum +')'));
+				};
+				
+				return false;
+			});
+					
+						
+							auto_rotate();
+						
+			function auto_rotate(){
+				interval = setInterval(function() {
+					if (!pause_scroll) $nextArrow.click();
+				}, 4000);
+			};
+				
+		};
+		
+		
+		<!---- Search Bar Improvements ---->
+		function et_search_bar(){
+			var $searchform = jQuery('#menu div#search-form'),
+				$searchinput = $searchform.find("input#searchinput"),
+				searchvalue = $searchinput.val();
+				
+			$searchinput.focus(function(){
+				if (jQuery(this).val() === searchvalue) jQuery(this).val("");
+			}).blur(function(){
+				if (jQuery(this).val() === "") jQuery(this).val(searchvalue);
+			});
+		};
+		
+				
+	//]]>	
+	</script>	<script src='http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php' type='text/javascript'></script>
+<script type='text/javascript'>
+FB_RequireFeatures(["XFBML"], function(){
+FB.Facebook.init("", "http://www.janium.com/wp-content/plugins/fbconnect/xd_receiver.htm");
+});
+</script>
+<script type='text/javascript' src='http://www.janium.com/wp-content/themes/TheProfessional/epanel/page_templates/js/prettyphoto/jquery.prettyPhoto.js?ver=3.0.3'></script>
+<script type='text/javascript' src='http://www.janium.com/wp-content/themes/TheProfessional/epanel/page_templates/js/et-ptemplates-frontend.js?ver=1.1'></script>
+
+<!-- AddThis Button Begin -->
+<script type="text/javascript">var addthis_product = 'wpp-254';
+var addthis_config = {"data_track_clickback":true};</script><script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=wp-50ebe93d4ed37770"></script>	
+</body>
+</html>

@@ -1,0 +1,118 @@
+<html>
+
+<body>
+
+<script>
+
+
+
+
+function Punto(x,y,z)
+	{
+	this.X=x;
+	this.Y=y;
+	this.Z=z;
+
+//	
+// AÑADIR FUNCION DISTANCIA PUNTO A OTRO PUNTO
+// 
+
+	}
+
+// funcion VECTOR
+// Argumentos: (punto de origen,  punto final)
+
+function Vector (P_Origen, P_Fin)
+	{
+	// Vector de formato (Vector.VX, Vector.VY, Vector.VZ)
+	// VALORES COMPONENTES VX, VY, VZ
+	// VALORES X,Y,Z SE USAN PARA VALORES COMPONENTES DE VECTOR UNITARIO
+	this.VX = P_Fin.X - P_Origen.X;
+	this.VY = P_Fin.Y - P_Origen.Y;
+	this.VZ = P_Fin.Z - P_Origen.Z;
+
+	// VALORES PUNTO ORIGEN DE VECTOR
+	this.Origen = P_Origen;
+	
+	// VALOR MODULO DE VECTOR
+	this.MODULO = Math.sqrt ((this.VX*this.VX)+(this.VY*this.VY)+(this.VZ*this.VZ));
+
+	// vector unitario formato (Vector.X, vector.Y, Vector.Z)
+	// VALORES DE VECTOR UNITARIO
+	this.X = this.VX / this.MODULO;
+	this.Y = this.VY / this.MODULO;
+	this.Z = this.VZ / this.MODULO;
+	
+	// AÑADIR FUNCIONES:
+	// 1- FUNCION PROYECCION PUNTO EN VECTOR
+	// 2- FUNCION PRODUCTO ESCALAR
+	// 3- FUNCION PRODUCTO VECTORIAL
+	// 4- FUNCION ANGULO ENTRE DOS VECTORES
+	}
+
+function SistemaCoordenadas(PtoOrigen, VectorX, VectorY, VectorZ)
+{
+this.Origen = PtoOrigen;
+//
+// VectorX, VectorY y VectorZ son los vectores pasados como argumento
+// no se revisa si son unitarios
+// como mejora añadir convertir a unitarios antes de pasar al sistema de coordenadas
+//
+this.VectorX = VectorX;
+this.VectorY = VectorY;
+this.VectorZ = VectorZ;
+
+}
+
+
+
+function calcula_ejes_camara(ptoEnfoque, ptoOrigenCoordCamara)
+	{
+
+	// vectores de sistema de coordenadas de la camara
+	// camaraVectorX - eje X pantalla proyeccion
+	// camaraVectorY - eje Y pantalla proyeccion
+	// camaraVectorZ - eje Z - dirección pto origen pantalla hacia punto de enfoque
+
+	var camaraVectorZ = new Vector(ptoOrigenCoordCamara.Origen,ptoEnfoque.Origen);
+//	var camaraVectorX = new Vector();
+//	var camaraVectorY = new Vector();
+
+	}
+
+
+
+
+document.write("<br>PUNTOS:");
+
+var P0=new Punto(10,20,30);
+var P1=new Punto(6,5,8);
+
+
+var PW = P0;
+document.write("<br>P0 x");
+document.write("<br>P0 x"+ PW.X + " " + PW.Y + " " + PW.Z);
+
+PW = P1;
+document.write("<br>P1 x"+ PW.X + " " + PW.Y + " " + PW.Z);
+
+var V0 = new Vector (P0, P1);
+document.write("<br>V0 Vx");
+document.write("<br>V0 Vx"+V0.VX + " " + V0.VY + " " + V0.VZ);
+document.write("<br>V0 x"+V0.X + " " + V0.Y + " " + V0.Z);
+document.write("<br>sqrt"+Math.sqrt(24));
+document.write("<br>V0 MOD"+V0.MODULO);
+document.write("<br>V0 x"+V0.X + " " + V0.Y + " " + V0.Z);
+document.write("<br>V0 Origen");
+document.write("<br>V0 Origen"+V0.Origen.X + " " + V0.Origen.Y + " " + V0.Origen.Z);
+
+
+var CoordGLOBAL = new SistemaCoordenadas([0,0,0],[1,0,0],[0,1,0],[0,0,1]);
+document.write("<br>CoordGLOBAL creada");
+
+
+</script>
+
+</body>
+
+</html>

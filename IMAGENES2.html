@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<script>
+var imageObj = new Image();
+imageObj.src="IMG00311-20130211-0749.jpg";
+
+var canvas = document.getElementById("mycanvas");
+
+var mycanvas_context = canvas.getContext('2d');
+      
+
+mycanvas_context.drawImage(imageObj, 0, 0, 20, 20, 10, 10, 20, 20);
+
+
+function coordenadas(ev){
+var x= ev.clientX;
+var y =ev.clientY;
+var ox= ev.offsetX;
+var oy =ev.offsetY;
+document.getElementById("TFI").innerHTML = ("X: "+x+";  Y: "+y+"<br>Offset X: "+ox+"Offset Y: "+oy);
+
+
+
+}
+
+</script>
+<body>
+
+
+<img id="FOTOIZQ" src="IMG00311-20130211-0749.jpg" onmousemove="coordenadas(event)";>
+<canvas id="mycanvas" width="200" height="200" style="border:10px" >No compatible con CANVAS</canvas>
+<div id="TFI"><br><br></div>
+<img id="FOTODCH" src="IMG00312-20130211-0749.jpg">
+</body>
+
+
+
+</html>
